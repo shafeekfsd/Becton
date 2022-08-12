@@ -2688,3 +2688,26 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+/* BECTON Logo */
+
+.waviy {
+  position: relative;
+  color: #FFF !important;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+

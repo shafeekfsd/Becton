@@ -265,8 +265,9 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 100px;
   margin-right: 6px;
+  filter: drop-shadow(5px 5px 9px rgba(226, 222, 222, 0.44));
 }
 
 .header .logo h1 {
